@@ -11,7 +11,7 @@ const comparation = (num1, num2) => {
         return true;
     }else{
         return false;
-    }
+    } 
 }
 console.log(comparation(1,2));
 
