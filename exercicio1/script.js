@@ -16,11 +16,9 @@ const greeting = (nome) => { //escolha de um nome arbitrário
 }
 console.log(greeting('Myllena'));
 
-const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-let string = [ ];
 const tabuada = (numero) => {
-    for (const i of array) {
+    for (let i=1; i <11; i++){
         console.log(`${numero} * ${i} = ${numero*i}`);
     }
 }
-console.log(tabuada(6));
+tabuada(6);
